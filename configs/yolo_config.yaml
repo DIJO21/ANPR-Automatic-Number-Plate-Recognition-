@@ -1,0 +1,8 @@
+# YOLOv8/v11 License Plate Detection Dataset Config
+path: ../datasets/license_plates  # Root directory of the dataset (resolved relative to execution)
+train: train/images
+val: val/images
+
+# Classes
+names:
+  0: license_plate
